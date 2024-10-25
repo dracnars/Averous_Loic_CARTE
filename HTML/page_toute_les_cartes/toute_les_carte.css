@@ -1,0 +1,212 @@
+.total{
+    display:flex
+}
+
+.contenue{
+    margin-left:24px;
+}
+
+header{
+    background-color: blue;
+    border:5px solid black;
+    display:flex;
+    position: fixed;
+    width: 100%;
+}
+.barre{
+    background-color: blue;
+    border-left:5px solid black;
+    border-bottom:5px solid black;
+    border-right:5px solid black;
+    position: fixed;
+    height: 100%;
+}
+
+body{
+    background-image:url("league_fond.png");
+    background-attachment: fixed;
+}
+
+.trie_raretée{
+    color:gold;
+    text-align: center;
+    border-bottom:5px solid black
+}
+
+.raretée{
+    text-align:center;
+    margin-top: 150px;
+    margin-left: 25%;
+}
+
+.image_raretee{
+    display:block;
+    margin-top: 80px;
+}
+
+.parragraphe1{
+    background-color: blue;
+    max-width: 400px;
+    font-size : 14px;
+    background-color: rgb(163, 234, 255);
+    border:5px solid orange;
+    padding:30px;
+    border-radius: 30px;
+    margin-top:200px;
+    margin-left:200px;
+}
+
+.navactuel{
+    color:coral
+}
+
+.toutenav{
+    display:flex; 
+}
+
+.anav{
+    font-size: 34px;
+    margin-left:200px;
+    font-family:Old English Text MT;
+    color:gold
+}
+
+.information{
+    font-family:Old English Text MT;
+    font-size:32px;
+    color:gold;
+    border-top:5px solid orange;
+    border-left:5px solid orange;
+    border-right:5px solid orange;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-bottom:-5px;
+    max-width: 110px;
+    padding-left:7px;
+    padding-right:3px;
+}
+
+.textinfo{
+    font-family:Old English Text MT;
+    font-size:18px;
+    max-width: 1000px;
+    background-color: rgb(163, 234, 255);
+    border:5px solid orange;
+    padding:30px;
+    border-radius: 30px;
+    
+}
+
+.information_titre{
+    margin-top:100px;
+    margin-left:140px;
+    font-family:Old English Text MT;
+    font-size:32px;
+    color:gold;
+    border-top:5px solid orange;
+    border-left:5px solid orange;
+    border-right:5px solid orange;
+    border-radius: 30px;
+    margin-bottom:-5px;
+    max-width: 160px;
+    padding-left:7px;
+    padding-right:5px;
+}
+
+.league{
+    font-family:Old English Text MT;
+    color:coral;
+}
+
+.image_aurora{
+    border:5px solid orange;
+}
+.partie_bas{
+    gap:100px;
+    margin-left: 200px;
+    margin-top: 50px;
+    max-width: 1600px;
+
+}
+
+.information_personnage{
+    font-family:Old English Text MT;
+    font-size:32px;
+    color:gold;
+    border:5px solid orange;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-top:100px;
+    max-width: 160px;
+    padding-left:7px;
+    padding-right:3px;
+    display: flex;
+}
+
+.information_item{
+    font-family:Old English Text MT;
+    font-size:32px;
+    color:gold;
+    border:5px solid orange;
+    border-radius: 30px;
+    margin-left: 250px;
+    margin-top:100px;
+    max-width: 60px;
+    padding-left:7px;
+    padding-right:3px;
+}
+
+.item{
+    display:flex;
+    gap:100px;
+    margin-top: 0px;
+    max-width: 1600px;
+    margin-left: 200px;
+
+}
+.personnage{
+    display:flex;
+    gap:100px;
+    margin-top: 0px;
+    max-width: 1600px;
+}
+.nom_perso{
+    text-align:center;
+    border: 3px solid black;
+    color: gold;
+    background-color: blue;
+    margin-bottom: 0px;
+}
+
+.parsonnage_image_limite{
+    width: 350px;
+}
+.parsonnage_image_limite:hover{
+    transform: scale(1.1,1.1);
+}
+.parsonnage_image:hover{
+    transform: scale(1.1,1.1);
+}
+
+.warmog:hover{
+    transform: scale(1.1,1.1);
+}
+
+.rabadon:hover{
+    transform: scale(1.1,1.1);
+}
+
+footer{
+    color:gold;
+    background-color: blue;
+    border: 5px solid black;
+    margin-left: 100px;
+}
+
+@media screen and (max-width: 800px){
+    .parragraphe1{
+        max-width: 30%;
+        font-size: 8px;
+    }
+
+ }

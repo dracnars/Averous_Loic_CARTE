@@ -1,0 +1,83 @@
+
+header{
+    background-color: blue;
+    border:5px solid black;
+    display:flex;
+    position: fixed;
+    width: 100%;
+}
+.titre{
+    color:gold;
+    font-family:Old English Text MT;
+    font-size:42px;
+    margin-left: 500px;
+}
+
+body{
+    background-image:url("league_fond.png");
+    background-attachment: fixed;
+}
+
+.information{
+    font-family:Old English Text MT;
+    font-size:32px;
+    color:gold;
+    border-top:5px solid orange;
+    border-left:5px solid orange;
+    border-right:5px solid orange;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-bottom:-20px;
+    max-width: 110px;
+    padding-left:7px;
+    padding-right:3px;
+}
+
+.parragraphe1{
+    background-color: blue;
+    max-width: 1600px;
+    font-size : 18px;
+    background-color: rgb(163, 234, 255);
+    border:5px solid orange;
+    padding:30px;
+    border-radius: 30px;
+}
+
+.nav{
+    font-size: 34px;
+    margin-left:200px;
+    font-family:Old English Text MT;
+    color:gold
+}
+
+.image_perso{
+    margin-top: 200px;
+    margin-left: 100px;
+    border:5px solid orange;
+}
+
+.capacitée{
+    display: flex;
+}
+
+.capacitée_icone{
+    margin-top: 360px;
+    padding-left: 50px;
+    max-height: 50px;
+}
+.capacitée_icone:hover{
+    transform: scale(1.1,1.1);
+}
+
+.akali_photo{
+    border:5px solid orange;
+    margin-left: 50px;
+    margin-top: 240px;
+}
+
+footer{
+    color:gold;
+    background-color: blue;
+    border: 5px solid black;
+
+}

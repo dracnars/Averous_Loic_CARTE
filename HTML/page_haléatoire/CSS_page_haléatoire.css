@@ -1,0 +1,74 @@
+.total{
+ display: flex;
+}
+
+.contenue{
+    margin-left:24px;
+}
+
+header{
+    background-color: blue;
+    border:5px solid black;
+    display:flex;
+    position: fixed;
+    width: 100%;
+}
+.barre{
+    background-color: blue;
+    border-left:5px solid black;
+    border-bottom:5px solid black;
+    border-right:5px solid black;
+    position: fixed;
+    height: 100%;
+}
+
+body{
+    background-image:url("league_fond.png");
+    background-attachment: fixed;
+}
+
+.trie_raretée{
+    color:gold;
+    text-align: center;
+    border-bottom:5px solid black
+}
+
+.raretée{
+    text-align:center;
+    margin-top: 150px;
+
+}
+
+.image_raretee{
+    display:block;
+    margin-top: 80px;
+}
+
+
+.navactuel{
+    color:coral
+}
+
+.toutenav{
+    display:flex; 
+}
+
+a{
+    font-size: 34px;
+    margin-left:200px;
+    font-family:Old English Text MT;
+    color:gold
+}
+
+.bouton{
+    max-width:100% ;
+    margin-left: 50%;
+}
+
+footer{
+    color:gold;
+    background-color: blue;
+    border: 5px solid black;
+    margin-left: 100px;
+
+}
