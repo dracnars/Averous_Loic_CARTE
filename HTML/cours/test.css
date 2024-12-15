@@ -1,0 +1,17 @@
+
+.tab{
+    display:flex;
+    margin-left: 10px;
+}
+
+.tab-NomduContenue{
+    padding-left: 10px;
+}
+
+.contenuecacher{
+    display: none;
+}
+
+.contenue_afficher{
+    display: block;
+}

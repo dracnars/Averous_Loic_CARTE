@@ -165,6 +165,10 @@ body{
 
 }
 .personnage{
+    display:none
+}
+
+.personnage_afficher{
     display:flex;
     gap:100px;
     margin-top: 0px;
@@ -177,6 +181,7 @@ body{
     background-color: blue;
     margin-bottom: 0px;
 }
+
 
 .parsonnage_image_limite{
     width: 350px;

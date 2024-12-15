@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="aceuil.js" defer></script>
 </head>
 <body>
     <header>
@@ -12,6 +13,8 @@
             <div><a href="page_acceuil.html"><span class="navactuel">accueil</span></a></div>
             <div><a href="../page_toute_les_cartes/page_toute_les_cartes.html">League of Fan Art</a></div>
             <div><a href="../page_haléatoire/page_haléatoire.html">selection haléatoire d'équipement et champion</a></div>
+            <div><img src="darkmode.png" alt="nocturne"  class = "nocturne" height="64" width="64" id="nightmode"></div>
+            
         </div>
     </header>
     <div class="total">
@@ -20,6 +23,8 @@
             <h2>trie</h2>
             <h2>de</h2>
             <h2>raretée</h2>
+            
+            
         </div>
         <div class="raretée">
             <img src="../commun.png" alt="commun"class="image_raretee">
@@ -30,6 +35,33 @@
 
     </div>
     <div class="contenue">
+        <form action="/submit" method ="POST" >
+            <div class="demande_nom">
+                <label for="name" class="demande_prenon" id = input_nom>Nom :</label>
+                <input type="text" id="name" name="name"/>
+            </div>
+            <div class="demande_email">
+                <label for="email" class="email_demande" id = input_email>Email :</label>
+                <input type="email" id="email" name="email"/>
+            </div>
+            <div class="demande_mdp">
+                <label for="password" class="demande_mot_de_passe" id = input_mdp>Mot_de_passe :</label>
+                <input type="password" id="MDP" name="MDP"/>
+            </div>
+            <div class="demande_mdp_comfirmation2">
+                <label for="password" class="demande_mot_de_passe2" id = input_mdp2>comfirmation de Mot_de_passe:</label>
+                <input type="password" id="MDP2" name="MDP2"/>
+            </div>
+            <div>
+                <select name="droit" id="droit">
+                    <option value="accept">accepté les cookies</option>
+                    <option value="accept">reffusé les cookies</option>
+                </select>
+            </div>
+            <div>
+                <button type=submit>Envoyer</button>
+            </div>
+        </form>
         <h1 class="information_titre"> 
             Information
         </h1>

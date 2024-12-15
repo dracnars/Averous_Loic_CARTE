@@ -1,0 +1,31 @@
+/* Styles de base */
+.accordeon .titre {
+  background: lightgray;
+  padding-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.accordeon .titre:hover {
+  background: darkgray;
+}
+
+.contenu {
+  padding: 0 10px;
+  height: 0;
+  opacity: 0;
+  /* display : none; */
+  visibility: hidden;
+  overflow: hidden;
+  transition: opacity 0.5s ease, height 0.5s ease, visibility 0.5s ease,
+    padding 0.5s ease;
+}
+
+.contenu-open {
+  height: 1rem;
+  /* display: block; */
+  visibility: visible;
+  opacity: 1;
+  padding: 10px 10px;
+  background-color: rgb(207, 207, 207);
+}

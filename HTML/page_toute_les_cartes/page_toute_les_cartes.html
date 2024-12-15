@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="toute_les_cartes.js" defer></script>
 </head>
 <body>
     <header>
@@ -22,54 +23,59 @@
                 <h2>raretée</h2>
             </div>
             <div class="raretée">
-                <img src="../commun.png" alt="commun"class="image_raretee">
-                <img src="../rare.png" alt="rare"class="image_raretee">
-                <img src="../épique.png" alt="epique"class="image_raretee">
-                <img src="../legendaire.png" alt="legendaire"class="image_raretee">
+                <img src="../commun.png" alt="commun"class="image_raretee" id ="raretée_commun">
+                <img src="../rare.png" alt="rare"class="image_raretee" id ="raretée_rare">
+                <img src="../épique.png" alt="epique"class="image_raretee" id ="raretée_epique">
+                <img src="../legendaire.png" alt="legendaire"class="image_raretee" id ="raretée_legendaire">
             </div>
     
         </div>
         <div class="main">
             <div class="partie_haut">
                 <div class="parragraphe1">
-                    <h2>bienvenue sur <span class="league">League of Fan Art</span>.Ici vous trouverais des fan art des Legends les plus connue .Comme: Ahri , Lux , teemo et plein d'autre. Vous pouvais cliquer sur le fan art de votre héros préferer pour accéder à ses compétance à pouvoir voir son lore. (Pour l'instant il n'y a que Akali qui à était fais)</h2>
-
+                    <h2>bienvenue sur <span class="league">League of Fan Art</span>.Ici vous trouverais des fan art des Legends les plus connue .Comme: Ahri , Lux , teemo et plein d'autre. Vous pouvais cliquer sur le fan art de votre héros préferer pour accéder à ses compétance à pouvoir voir son lore. (Pour l'instant il n'y a que Akali qui à était fais)  Utiliser le trie de raretée sur la barre de gauche pour faire apparaître les différents personnages</h2>
+                    
 
                 </div>
             </div>
             <div class="partie_bas">
                 <div class="information_personnage">Personnage</div>
-                    <div class="personnage">
+                    <div class="personnage" id="personnages_com">
+                        <div class="titre_de_raretee"> Commun</div>
                         <div class="parsonnage_image_limite">
-                            <h2 class="nom_perso"> AKALI</h2>
-                            <a href="../page_toute_les_cartes/page_detail/akali.html"><img src="../page_toute_les_cartes/image_perso/akali.png" alt="akali" width="350px"; height="190px"></a>
-
-
+                            <h2 class="nom_perso" id = "nom_akali"> AKALI</h2>
+                            <a href="../page_toute_les_cartes/page_detail/akali.html"><img src="../page_toute_les_cartes/image_perso/akali.png" alt="akali" width="350px"; height="190px" id = "akali"></a>
 
                             <img src="../page_toute_les_cartes/image_perso/akali_signature.png" alt="akali_signature">
                         </div>
                         <div class="parsonnage_image">
-                            <h2 class="nom_perso"> TEEMO</h2>
-                            <img src="../page_toute_les_cartes/image_perso/teemo.jpg" alt="teemo" width="350px"; height="190px">
+                            <h2 class="nom_perso" id = "nom_teemo"> TEEMO</h2>
+                            <img src="../page_toute_les_cartes/image_perso/teemo.jpg" alt="teemo" width="350px"; height="190px" id = "teemo">
                         </div>
                         <div class="parsonnage_image">
-                            <h2 class="nom_perso"> LUX</h2>
-                            <img src="../page_toute_les_cartes/image_perso/lux.jpg" alt="lux" width="150px"; height="190px">
+                            <h2 class="nom_perso" id = "nom_lux"> LUX</h2>
+                            <img src="../page_toute_les_cartes/image_perso/lux.jpg" alt="lux" width="150px"; height="190px" id = "lux">
                         </div>
                     </div>
-                    <div class="personnage">
+                    <div class="personnage" id = "personnages_rare">
                         <div class="parsonnage_image">
-                            <h2 class="nom_perso"> YASUO</h2>
-                            <img src="../page_toute_les_cartes/image_perso/yasuo.jpg" alt="Yasuo" width="350px"; height="190px">
+                            <h2 class="nom_perso" id = "nom_yasuo"> YASUO</h2>
+                            <img src="../page_toute_les_cartes/image_perso/yasuo.jpg" alt="Yasuo" width="350px"; height="190px" id = "yasuo">
                         </div>
                         <div class="parsonnage_image">
-                            <h2 class="nom_perso"> JINX</h2>
-                            <img src="../page_toute_les_cartes/image_perso/jinx.jpg" alt="jinx" width="150px"; height="190px">
+                            <h2 class="nom_perso" id = "nom_jinx"> JINX</h2>
+                            <img src="../page_toute_les_cartes/image_perso/jinx.jpg" alt="jinx" width="150px"; height="190px" id = "jinx">
                         </div>
                         <div class="parsonnage_image">
-                            <h2 class="nom_perso"> AATROX</h2>
-                            <img src="../page_toute_les_cartes/image_perso/aatrox.jpg" alt="Aatrox" width="350px"; height="190px">
+                            <h2 class="nom_perso" id = "nom_aatrox"> AATROX</h2>
+                            <img src="../page_toute_les_cartes/image_perso/aatrox.jpg" alt="Aatrox" width="350px"; height="190px" id = "aatrox">
                         </div>
+                    </div>
+                    <div class="personnage" id = "personnages_epique">
+
+                    </div>
+                    <div class="personnage" id = "personnages_legendaire">
+
                     </div>
                 </div>
                 <div class="information_item">item</div>
